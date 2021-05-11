@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:22-77
+13
+14    <application
+14-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:8:5-52:19
+15        android:allowBackup="true"
+15-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\marym\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:14:9-40
+24        <activity android:name="com.example.myapplication.HelpPage" />
+24-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:15:9-55
+24-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:15:19-43
+25        <activity android:name="com.example.myapplication.RemindersSummary" />
+25-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:16:9-54
+25-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:16:19-51
+26        <activity android:name="com.example.myapplication.ViewDailyTask" />
+26-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:17:9-51
+26-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:17:19-48
+27        <activity android:name="com.example.myapplication.AddDailyTask" />
+27-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:18:9-50
+27-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:18:19-47
+28        <activity android:name="com.example.myapplication.DailyTasksMenu" />
+28-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:9-52
+28-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:19-49
+29        <activity android:name="com.example.myapplication.RepeatingNotificationMenu" />
+29-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:20:9-63
+29-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:20:19-60
+30        <activity android:name="com.example.myapplication.Dialogs.TimePickerDialog" />
+30-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:21:9-62
+30-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:21:19-59
+31        <activity android:name="com.example.myapplication.AddRepeatingNotification" />
+31-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:22:9-62
+31-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:22:19-59
+32        <activity android:name="com.example.myapplication.RepeatingActivity" />
+32-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:23:9-55
+32-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:23:19-52
+33        <activity android:name="com.example.myapplication.AddNewNotification" />
+33-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:24:9-56
+33-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:24:19-53
+34        <activity android:name="com.example.myapplication.AddNewNotificationMenu" />
+34-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:25:9-60
+34-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:25:19-57
+35        <activity android:name="com.example.myapplication.MoreOptionsMenu" />
+35-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:26:9-53
+35-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:26:19-50
+36        <activity
+36-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:27:9-30:59
+37            android:name="com.example.myapplication.CalendarTest"
+37-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:28:13-41
+38            android:label="@string/title_activity_calendar_test"
+38-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:29:13-65
+39            android:theme="@style/AppTheme.NoActionBar" />
+39-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:30:13-56
+40        <activity android:name="com.example.myapplication.MainCalendar" />
+40-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:31:9-50
+40-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:31:19-47
+41        <activity
+41-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:32:9-35:59
+42            android:name="com.example.myapplication.Calendar"
+42-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:33:13-37
+43            android:label="@string/title_activity_calendar"
+43-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:34:13-60
+44            android:theme="@style/AppTheme.NoActionBar" />
+44-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:35:13-56
+45        <activity
+45-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:36:9-41:59
+46            android:name="com.example.myapplication.NewUserScreen"
+46-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:37:13-42
+47            android:configChanges="orientation"
+47-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:38:13-48
+48            android:label="@string/title_activity_new_user_screen"
+48-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:39:13-67
+49            android:screenOrientation="portrait"
+49-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:40:13-49
+50            android:theme="@style/AppTheme.NoActionBar" />
+50-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:41:13-56
+51        <activity
+51-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:42:9-51:20
+52            android:name="com.example.myapplication.MainActivity"
+52-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:43:13-41
+53            android:configChanges="orientation"
+53-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:44:13-48
+54            android:screenOrientation="portrait" >
+54-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:45:13-49
+55            <intent-filter>
+55-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:46:13-50:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:47:17-69
+56-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:47:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:49:17-77
+58-->C:\Users\marym\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:49:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <provider
+62-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\marym\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+63            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\marym\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+64            android:authorities="com.example.myapplication.lifecycle-process"
+64-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\marym\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+65            android:exported="false"
+65-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\marym\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+66            android:multiprocess="true" />
+66-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\marym\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+67    </application>
+68
+69</manifest>

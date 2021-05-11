@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewNotification">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- big
+            <TimePicker
+                android:id="@+id/notificationTimePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />-->
+
+            <EditText
+                android:id="@+id/notificationNameField"
+                android:layout_width="213dp"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.112" />
+
+            <EditText
+                android:id="@+id/descriptionField"
+                android:layout_width="218dp"
+                android:layout_height="116dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Description"
+                android:inputType="textMultiLine"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.512"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.255" />
+
+            <CheckBox
+                android:id="@+id/sendNotificationCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send Notification?"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.499" />
+
+            <Button
+                android:id="@+id/openTimePickerDialog"
+                android:layout_width="149dp"
+                android:layout_height="48dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="161dp">
+
+                <Button
+                    android:id="@+id/confirmButton"
+                    android:layout_width="103dp"
+                    android:layout_height="48dp"
+                    android:text="Confirm"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.766"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.38" />
+
+                <Button
+                    android:id="@+id/cancelButton"
+                    android:layout_width="103dp"
+                    android:layout_height="48dp"
+                    android:text="Cancel"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.201"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.383" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+</LinearLayout>

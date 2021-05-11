@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Help</title>
+        <!--<meta name="description" content="An interactive getting started guide for Brackets.">-->
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <a name='homepage'></a>
+        <h1>Homepage</h1>
+        
+        <img src='homepage_en.png'>
+
+        <li>Click <span class='button'>NEW USER</span> to create a new Profile.</li>
+        <li>Click <span class='button'>🌐</span> to change the language settings.</li>
+        <p>Select a Profile on the dropdown menu, then</p>
+        <li>Click <span class='button'>RENAME</span> to rename a user.</li>
+        <li>Click <span class='button'>DELETE USER</span>, to open the delete profile dialog.</li>
+        <li>Click <a href='#calendar'><span class='button'>PROCEED</span></a> to select the profile on the dropdown menu, and move onto the calendar page.</li>
+        
+        <a name='calendar'></a>
+        <h1>Calendar</h1>
+        
+        <img src='calendar_en.png'>
+        <p>The calendar highlights dates that have scheduled reminders in blue. When a notification activates (and has set notification on), a dialog box will appear here.</p>
+        <li>Swipe left/right to scroll between months.</li>
+        <br>
+        <li>Click <a href='#homepage'><span class='button'>BACK</span></a> to return to the homepage.</li>
+        <li>Click <span class='button'>VIEW</span> to select the selected date. You can then view all reminders for that date, or add a new reminder for that date. You cannot select a date that has already passed.</li>
+        <li>Click <span class='button'>MORE</span> to add daily tasks or repeating notifications.</li>
+        <li>Click <span class='button'>VIEW ALL REMINDERS</span> to view all reminders on one page.</li>
+        
+        <a name='addnewreminder'></a>
+        <h1>Add new reminder</h1>
+        <p>A normal reminder. It will send a notification dialog when it activates, then deletes itself.</p>
+        
+        <img src='addnewreminder_en.png'>
+        
+        <li>Enter the name of your reminder in the <em>Name</em> field. All reminders must have names. No two reminders set on the same date can share a name.</li>
+        <li>Enter the description of your reminder in the <em>Description</em> field. This section is optional.</li>
+        <li>Check the <em>Send notification</em> checkbox if you want the reminder to give a notification box when it activates.</li>
+        <li>Select the time of the day you want your notification to set by clicking <span class='button'>SELECT BUTTON</span>. It defaults to midnight.</li>
+        <br>
+        <li>Click <span class='button'>CONFIRM</span> to create the reminder, or <span class='button'>CANCEL</span> to go back.</li>
+        
+        <p><a href='#addrepeating'>Repeating Notifications</a> and <a href='#dailytasksmenu'>Daily Tasks</a> can be accessed by pressing the <span class='button'>MORE</span> button on the calendar screen.</p>
+        <a name='addrepeating'></a>
+        <h1>Add repeating notification</h1>
+        <p>Use this when you want a notification to activate on a regular basis. When it activates, it will automatically reschedule itself.</p>
+        
+        <img src='addrepeating_en.png'>
+        
+        <li>Enter the name of the repeating notification in the <em>Name</em> field. All repeating notifications must have a unique name.</li>
+        <li>Click the <span class='button'>SELECT TIME</span> button to add a time you want this notification to activate to a list. If no time is selected, the application will automatically add 00:00 for you.</li>
+        <li>Select a time from the dropdown menu, then click <span class='button'>DELETE SELECTED TIME</span> to delete the selected time from the list.</li>
+        <li>Click <span class='button'>DAY(S) OF WEEK</span> to select which days of the week you want this notification to activate. You must have at least one day selected.</li>
+        <li>Enter the description for the notification in the <em>Description</em> field. This section is optional.</li>
+        <li>Check the <em>Send notification</em> checkbox if you want the notification to send a notification dialog when it activates. When the notification activates, it will automatically reschedule itself.</li>
+        <li>Click <span class='button'>CONFIRM</span> to create the notification, or <span class='button'>CANCEL</span> to go back. </li>
+        
+        <a name='dailytasksmenu'></a>
+        <h1>Daily tasks</h1>
+        <img src='dailytasksmenu_en.png'>
+        <img src='dailytasksmenu_2_en.png'>
+        <p>Completed tasks are highlighted in green, and incomplete tasks are highlighted in red.</p>
+        <li>Select a task, then click <a href='#viewdailytask'><span class='button'>VIEW</span></a> to adjust progress.</li>
+        
+        <a name='viewdailytask'></a>
+        <h2>View daily task</h2>
+        <img src='dailytasksview_en.png'>
+        
+        <li>Use the <span class='button'>-</span> and <span class='button'>+</span> buttons to adjust task progress.</li>
+        <li>Click <a href='#adddailytask'><span class='button'>EDIT</span></a> to edit the task.</li>
+        
+        <a name='adddailytask'></a>
+        <h2>Add daily task</h2>
+        <img src='adddailytasks_en.png'>
+        <li>Enter the name of the task in the <em>Name</em> field. All tasks must have a unique name.</li>       
+        <li>Enter the description of the field in the <em>Description</em> field. This section is optional.</li>
+        <li>Enter the amount of times you want this task to be completed in the <em>How many times</em> field. Must be a positive integer.</li>
+        <li>Check the <em>Reset every midnight</em> box if you want the task progress to reset to zero every midnight. If you do not check this box, the task will never reset automatically.</li>
+        <li>Click <span class='button'>CONFIRM</span> to create the task, or <span class='button'>CANCEL</span> to go back.</li>
+
+    </body>
+</html>
